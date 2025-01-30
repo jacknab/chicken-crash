@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes win-notification {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, 0) scale(1);
+  }
+  20% {
+    opacity: 1;
+    transform: translate(-50%, -30px) scale(1.1);
+  }
+  80% {
+    opacity: 1;
+    transform: translate(-50%, -120px) scale(1.1);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-50%, -140px) scale(1);
+  }
+}
